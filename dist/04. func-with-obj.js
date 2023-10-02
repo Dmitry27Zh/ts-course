@@ -18,5 +18,5 @@ function printName(user) {
     if (user.lastName) {
         console.log('Nice to meet you Mr.', user.lastName.toUpperCase()); // ---- no error
     }
-    console.log('Nice to meet you Mr.', user.lastName.toUpperCase()); // ---- error
+    // console.log('Nice to meet you Mr.', user.lastName.toUpperCase()) ---- error
 }
