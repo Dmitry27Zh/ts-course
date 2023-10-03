@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.printName = void 0;
 function printPoint(point) {
     console.log(`Coordinate of the point is x: ${point.x} y: ${point.y}`);
 }
@@ -20,3 +22,4 @@ function printName(user) {
     }
     // console.log('Nice to meet you Mr.', user.lastName.toUpperCase()) ---- error
 }
+exports.printName = printName;

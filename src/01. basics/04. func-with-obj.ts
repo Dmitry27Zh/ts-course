@@ -16,7 +16,7 @@ const obj2 = {
 printPoint(obj1)
 printPoint(obj2) // ---- no error
 
-function printName(user: { firstName: string; lastName?: string }): void {
+export function printName(user: { firstName: string; lastName?: string }): void {
   console.log('Hello', user.firstName.toUpperCase())
 
   if (user.lastName) {
