@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const numbers = [1, 2, 3, '', true]; // ---- (string | number | boolean)[]
 const random = []; // ---- any[]
 random.push(22);

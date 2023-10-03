@@ -11,9 +11,10 @@ const strings: string[] = []
 const alternateStrings: Array<string> = []
 // alternateStrings.push(2) ---- error
 
-interface Car {
+export interface Car {
   wheels: number
   brand: string
+  type: string
 }
 
 const myCar: Car = {
