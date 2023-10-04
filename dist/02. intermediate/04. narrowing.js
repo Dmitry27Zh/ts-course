@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.move = void 0;
 function example1(x) {
     if (typeof x === 'string') {
         x.toLowerCase();
@@ -35,3 +37,4 @@ function move(animal) {
     }
     animal.fly();
 }
+exports.move = move;
