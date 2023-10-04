@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.num = void 0;
 let word = null;
-const num = 10;
-if (num > 5) {
+exports.num = 10;
+if (exports.num > 5) {
     word = 'abc';
 }
 // console.log(word.toUpperCase()) ---- error
