@@ -6,7 +6,7 @@ let z = NaN
 // string
 let str1 = 'Hello World!'
 // implicit
-let str = 'asdfg'
+export let str = 'asdfg'
 // str = 4 ---- error
 
 // explicit

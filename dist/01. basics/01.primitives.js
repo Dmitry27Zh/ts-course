@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.str = void 0;
 // number
 let x = 10.5;
 // let y = 123n
@@ -6,7 +8,7 @@ let z = NaN;
 // string
 let str1 = 'Hello World!';
 // implicit
-let str = 'asdfg';
+exports.str = 'asdfg';
 // str = 4 ---- error
 // explicit
 // any

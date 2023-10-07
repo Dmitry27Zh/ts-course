@@ -15,7 +15,7 @@ function crash(): never {
   throw new Error('crash')
 }
 
-function average(...nums: number[]) {
+export function average(...nums: number[]) {
   const sum = nums.reduce((sum, current) => {
     console.log(current.toString())
 
