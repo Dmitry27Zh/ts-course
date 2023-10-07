@@ -2,6 +2,10 @@ function prop<T, U extends keyof T>(key: U, obj: T): T[U] {
   return obj[key]
 }
 
+// function prop<T>(key: keyof T, obj: T): T[keyof T] {
+//   return obj[key]
+// }
+
 // prop('toString', { '2': 2 }) ---- error
 
 interface Laptop {
