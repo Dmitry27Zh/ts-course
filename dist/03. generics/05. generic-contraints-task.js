@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.values = exports.keys3 = exports.keys2 = exports.keys = void 0;
-function keys(obj) {
+export function keys(obj) {
     const result = [];
     const isKey = (key) => obj.hasOwnProperty(key);
     for (let key in obj) {
@@ -11,8 +8,7 @@ function keys(obj) {
     }
     return result;
 }
-exports.keys = keys;
-function keys2(obj) {
+export function keys2(obj) {
     const result = [];
     for (let key in obj) {
         if (obj.hasOwnProperty(key)) {
@@ -21,8 +17,7 @@ function keys2(obj) {
     }
     return result;
 }
-exports.keys2 = keys2;
-function keys3(obj) {
+export function keys3(obj) {
     const result = [];
     for (let key in obj) {
         if (obj.hasOwnProperty(key)) {
@@ -31,8 +26,7 @@ function keys3(obj) {
     }
     return result;
 }
-exports.keys3 = keys3;
-function values(obj) {
+export function values(obj) {
     const result = [];
     for (let key in obj) {
         if (obj.hasOwnProperty(key)) {
@@ -41,4 +35,3 @@ function values(obj) {
     }
     return result;
 }
-exports.values = values;

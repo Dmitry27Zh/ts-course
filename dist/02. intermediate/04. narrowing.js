@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.move = void 0;
 function example1(x) {
     if (typeof x === 'string') {
         x.toLowerCase();
@@ -31,10 +28,9 @@ function example3(x) {
         x.concat(1, 2, 3);
     }
 }
-function move(animal) {
+export function move(animal) {
     if ('swim' in animal) {
         return animal.swim();
     }
     animal.fly();
 }
-exports.move = move;

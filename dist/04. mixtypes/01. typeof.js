@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.str = void 0;
-exports.str = 'Hello World';
+export let str = 'Hello World';
 const str2 = 'Hello World';
 const max = (...nums) => Math.max(...nums);
 max(1, 2, 3);

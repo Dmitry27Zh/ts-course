@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.createMap = void 0;
-function createMap(list) {
+export function createMap(list) {
     return function (cb) {
         const result = [];
         for (let el of list) {
@@ -10,6 +7,5 @@ function createMap(list) {
         return result;
     };
 }
-exports.createMap = createMap;
 const mapNums = createMap([1, 2, 3]);
 const result = mapNums((num) => num + 2);

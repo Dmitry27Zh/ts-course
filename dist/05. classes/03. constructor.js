@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Vehicle = void 0;
-class Vehicle {
+export class Vehicle {
     constructor(createdAt) {
         this.createdAt = createdAt;
     }
@@ -10,7 +7,6 @@ class Vehicle {
         console.log('Created at', this.createdAt);
     }
 }
-exports.Vehicle = Vehicle;
 class Car extends Vehicle {
     constructor(color, maxSpeed) {
         super(new Date());

@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Car = void 0;
-class Car {
+export class Car {
     go() {
         // ---- no-error
         console.log("Let's go with speed");
@@ -10,6 +7,5 @@ class Car {
         console.log('Stopped');
     }
 }
-exports.Car = Car;
 const car = new Car();
 // car.maxSpeed = 200 // ---- error

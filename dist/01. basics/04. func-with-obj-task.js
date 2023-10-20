@@ -1,12 +1,8 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.login = void 0;
-function login(user) {
+export function login(user) {
     if (user.login.length > 0 && user.password.length > 0) {
         console.log('Hello', user.login);
     }
 }
-exports.login = login;
 const user1 = {
     login: 'user123',
     email: 'asdf@jdj.org',

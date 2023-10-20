@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Vehicle = void 0;
-class Vehicle {
+export class Vehicle {
     drive(speed) {
         console.log('Let us go with speed', speed.toFixed());
         this.log(speed);
@@ -16,7 +13,6 @@ class Vehicle {
         console.log(text);
     }
 }
-exports.Vehicle = Vehicle;
 class Car extends Vehicle {
     changeSpeed(speed) {
         this.drive(speed);

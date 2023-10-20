@@ -1,9 +1,7 @@
-"use strict";
 // Create two variants: aliases and interfaces
 // Product : price, isNew, isSale, title
 // Vehicle : wheels, year, brand
 // Car: type, model +Product,+Vehicle
-Object.defineProperty(exports, "__esModule", { value: true });
 const car = {
     price: 100000,
     isNew: true,
@@ -26,3 +24,4 @@ const iCar = {
     type: 'suv',
     year: 2023,
 };
+export {};

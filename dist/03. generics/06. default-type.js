@@ -1,4 +1,3 @@
-"use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -8,29 +7,24 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.request3 = exports.request2 = exports.request = void 0;
-function request(url) {
+export function request(url) {
     return __awaiter(this, void 0, void 0, function* () {
         const response = yield fetch(url);
         return response.json();
     });
 }
-exports.request = request;
-function request2(url) {
+export function request2(url) {
     return __awaiter(this, void 0, void 0, function* () {
         const response = yield fetch(url);
         return response.json();
     });
 }
-exports.request2 = request2;
-function request3(url) {
+export function request3(url) {
     return __awaiter(this, void 0, void 0, function* () {
         const response = yield fetch(url);
         return response.json();
     });
 }
-exports.request3 = request3;
 const data = request('someurl'); // ---- : Promise<any>
 const data2 = request2('someurl'); // ---- : Promise<unknown>
 const data3 = request3('someurl'); // ---- : Promise<AnyObject>
